@@ -1,0 +1,651 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/************************/
+
+
+
+
+body{
+font-family: 'Gotham Rounded Bold';
+background: #dddddd;
+}
+
+
+.wrapper{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header{
+	background-image: url(./img/Livello.png);
+	height: 745px;
+}
+
+header ul{
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+header ul li{
+	display: inline;
+	padding-left: 80px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header .items ul li:hover{
+	color: #16a085;
+}
+
+header ul li:first-child{
+	padding-left: 90px;
+}
+
+.items{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.items h1{
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding-top: 245px;
+	letter-spacing: 5px;
+}
+
+.items p{
+	text-align: center;
+	color: #ffffff;
+	padding-top: 20px;
+	font-size: 16px;
+	font-family: 'Gotham Rounded Medium';
+	letter-spacing: 2px;
+}
+
+.items .buttons, .description .buttons{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.items .buttons a, .description .buttons a{
+	text-decoration: none;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding:22px 32px 22px 32px;
+	background: #16a085;
+	border-radius: 2px;
+}
+
+.container2{
+	height: 484px;
+	background-color: #f5f6f7;
+}
+
+.container2 .description{
+	width: 40%;
+	display: inline-block;
+}
+
+.container2 .description h2{
+	padding-left:130px;
+	padding-top: 115px;
+	text-transform: uppercase;
+	color: #16a085;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+}
+
+.container2 .description p{
+	padding-left:130px;
+	padding-top: 50px;
+	font-family: 'Gotham Rounded Book';
+	font-size: 12px;
+	color: #505051;
+	line-height: 27px;
+	letter-spacing: 1px;
+}
+
+.container2 .description span{
+	font-family: 'Gotham Rounded Bold';
+}
+
+.container2 .description .buttons a{
+	margin-left: -75px;
+}
+
+.container2 .phone1{
+	float: right;
+	clear: both;
+	padding-top: 85px;
+	max-height: 400px;
+	overflow: hidden;
+	width: 60%;
+}
+
+.container2 .phone1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin-left: -13%;
+}
+
+.container3{
+	height: 560px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+.container3 .phone2{
+	max-height: 413px;
+	display: inline-block;
+	margin-left: 125px;
+	margin-top: 147px;
+	overflow: hidden;
+	width: 35%;
+}
+
+.container3 .description img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container3 .description{
+	width: 510px;
+	display: inline-block;
+	position: relative;
+	left: 190px;
+	bottom: 164px;
+}
+
+.container3 .description h2{
+	padding-top: 147px;
+	width: 30%;
+	text-transform: uppercase;
+	color: #16a085;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.container3 .description p{
+	font-size: 12px;
+	font-family: 'Gotham Rounded Book';
+	padding-top: 46px;
+	padding-right: 83px;
+	color: #505051;
+	line-height: 27px;
+	letter-spacing: 1px;
+}
+
+.container3 .description span{
+	font-family: 'Gotham Rounded Bold';
+}
+
+.container3 .description .buttons1{
+	margin-top: 44px;
+}
+
+.container3 .description .buttons1 a{
+	text-decoration: none;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding:22px 46px 22px 46px;
+	background: #16a085;
+	border-radius: 2px;
+}
+
+.container4{
+	height: 486px;
+	background-color: #f5f6f7;
+	width: 100%;
+}
+
+.container4 .img1{
+	padding-top: 166px;
+	margin-left: 128px;
+	display: inline-block;
+	position: relative;
+	bottom: 44px;
+
+}
+
+.container4 .img1 #qw{
+	text-align: center;
+}
+
+.container4 .img1 img{
+	width: 60px;
+	filter: sepia(100%) saturate(2000%) hue-rotate(85deg) brightness(0.65)
+}
+
+.container4 .img1 h2{
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 3px;
+	padding-top: 34px;
+	padding-bottom: 28px;
+	color: #373737;
+}
+
+.container4 .img1 p{
+	font-family: 'Gotham Rounded Medium';
+	font-size: 10px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+	width: 160px;
+	color: #505051;
+	position: relative;
+	left: 10px;
+}
+
+.container4 .img2{
+	display: inline-block;
+	width: 372px;
+	position: relative;
+	left: 74px;
+}
+
+.container4 .img3{
+	display: inline-block;
+	width: 372px;
+	margin-left:24px;
+	position: relative;
+	left: 74px;
+}
+
+.container5{
+	background-image: url(./img/Livello3.png);
+	height: 791px;
+}
+
+.container5 h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #ffffff;
+	letter-spacing: 3px;
+	padding-top: 352px;
+}
+
+.container5 form{
+	padding-top:35px;
+	text-align: center;
+	height: 60px;
+}
+
+.container5 form fieldset{
+	display: inline-block;
+}
+
+.container5 form .qwe{
+	font-family: 'Gotham Rounded Medium';
+	width: 282px;
+	height: 54px;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: #373737;
+	padding-left: 23px;
+	letter-spacing: 2px;
+}
+
+.container5 form div{
+	display: inline-block;
+	position: relative;
+	left: -5px;
+	top: 21px;
+}
+
+.container6{
+	height: 400px;
+	background-color: #f5f6f7;
+	margin: 0 auto;
+}
+
+.container6 h2{
+	padding-top: 90px;
+	font-size: 20px;
+	color: #373737;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.container6 .desc{
+	width: 100%;
+	text-align:center;
+}
+
+.container6 p{
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+	padding-top: 20px;
+	font-family: 'Gotham Rounded Medium';
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-size: 12px;
+	color: #444444;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+
+
+/*Новая информация с использования иконок из fontawesome*/
+
+.two_buttons {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.two_buttons a{
+	text-decoration: none;
+	padding: 25px 80px 20px 25px;
+	background-color: #1abc9c;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 2px;
+}
+
+.two_buttons a:last-child{
+	margin-left: 20px;
+}
+
+.two_buttons a svg{
+	position: relative;
+    left: 80px;
+    top: 20px;
+    font-size: 25px;
+    padding: 19px;
+	background: #16a085;
+	border-radius: 0 2px 2px 0;
+}
+
+.container7{
+	background-color: #ffffff;
+	height: 132px;
+}
+
+.container7 p{
+	font-family: 'Gotham Rounded Bold';
+	letter-spacing: 2px;
+	color: #373737;
+	padding-top: 83px;
+	padding-left: 127px;
+	font-size: 14px;
+}
+
+@media (max-width: 1200px){
+	header .items ul li{
+		display: block;
+		padding-left: 0;
+		padding-top: 15px;
+	}
+
+	header .items ul{
+		text-align: center;
+	}
+
+	header .items h1{
+		padding-top: 106px;
+	}
+
+	.container2{
+		height: 942px;
+	}
+	
+	.container2 .description h2, .container2 .description p, .container2 .description .buttons{
+		padding-left: 10%;
+	}
+
+	.container2 .description h2{
+		padding-top: 100px;
+	}
+
+	.container2 .description .buttons{
+		display: inherit;
+		margin-left: 0;
+	}
+
+	.container2 .description .buttons a{
+		margin: 0;
+	}
+
+	.container2 .phone1{
+		width: 100%;
+		max-height: 490px;
+	}
+
+	.container3{
+		height:750px;
+	}
+
+	.container3 .phone2{
+		margin-left: 4.416%;
+		width: 41%;
+		margin-top: 12.2%;
+	}
+
+	.container3 .description{
+		width: 42.5%;
+		position: relative;
+		left: 4.83%;
+		bottom: 20%;
+	}
+
+	.container3 .description p{
+		padding-top: 25px;
+	}
+
+	.container4{
+		height: 300px;
+	}
+
+	.container4 .img1{
+		width: 100%;
+		margin: 0 auto;
+		margin-top: -5%;
+	}
+
+	.container4 .img1 p{
+		width: 180px;
+		margin: 0 auto;
+		position: relative;
+		left:0;
+	}
+
+	.container4 .img2{
+		display: none;
+	}
+
+	.container4 .img3{
+		display: none;
+	}
+}
+
+@media (max-width: 768px){
+	.container2{
+		height: 894px;
+	}
+	.container2 .description{
+		width: 90%;
+	}
+
+	.container2 .description h2, .container2 .description p{
+		text-align: center;
+	}
+
+	.container2 .description .buttons{
+		display: block;
+		margin-left: 0;
+	}
+	
+	.container3{
+		height: 400px;
+	}
+
+	.container3 .phone2{
+		width: 100%;
+		max-height: 413px;
+		display: none;
+	}
+
+	.container3 .description{
+		margin-top: 20px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.container3 .description h2{
+		margin-left: 33%;
+	}
+
+	.container3 .description p{
+		margin: 0;
+		padding: 0;
+	}
+
+	.container6 {
+		height: 360px;
+		text-align: center;
+	}
+	.container6 h2 {
+		padding-top: 40px;
+		font-size: 14px;
+		letter-spacing: 2px;
+	}
+	.container6 p {
+
+	letter-spacing: 1px;
+	font-size: 10px;
+	line-height: 15px;
+	}
+	
+	.two_buttons {
+		text-align: center;
+		padding-top: 0px;
+	}
+	
+	.two_buttons a{
+		padding: 20px 0px 14px 25px;
+		font-size: 14px;
+	}
+	.two_buttons .two_buttons1, .two_buttons .two_buttons2 {
+		display: block;
+		margin-top: 20px;
+	}
+	.two_buttons .two_buttons2 a{
+		margin-left: 0px;
+	}
+	
+	.two_buttons a svg{
+		left: 30px;
+		top: 14px;
+		font-size: 20px;
+		padding: 15px;
+	}
+	.two_buttons1 a svg {
+		top: 15px;
+	}
+}
+
+@media (max-width: 435px){
+	header .items h1{
+		font-size: 30px;
+		letter-spacing: 2px;
+	}
+
+	.container5 form {
+		padding-top: 25px;
+		height: 40px;
+	}
+	.container5 form .qwe {
+		width: 182px;
+		height: 40px;
+		font-size: 12px;
+		padding-left: 20px;
+	}
+	
+	.container5 form div {
+		top: 18px;
+	}
+	.container5 form div input{
+		height: 45px;
+	}
+
+	.container6 {
+		height: 280px;
+	}
+	.two_buttons a{
+		padding: 14px 0px 10px 40px;
+		font-size: 10px;
+	}
+	.two_buttons a svg{
+		left:30px;
+		top: 10px;
+		font-size: 16px;
+		padding: 10px;
+	}
+	.container6 h2 {
+		padding-top: 35px;
+		font-size: 12px;
+		letter-spacing: 2px;
+	}
+	.container6 p {
+
+	letter-spacing: 1px;
+	font-size: 9px;
+	line-height: 10px;
+	}
+}
